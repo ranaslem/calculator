@@ -23,13 +23,14 @@ public class project1  extends Application{
 	Button [] arr = new Button[10];
 	TextField text = new TextField();
 	String res="";
-	 static int size=0;   ///ÍÌã ÇáÇÑí ÇáÌÏíÏå İ ßá ãÑå ÈÍÓÈ ÇáßÓÈÑÔä 
+	 static int size=0;   //ÍÌã ÇáÇÑí ÇáÌÏíÏå İ ßá ãÑå ÈÍÓÈ ÇáßÓÈÑÔä 
 	@Override
 	public void start(Stage st) throws Exception {
 		text.setPrefHeight(70);
 		text.setPrefWidth(300);
 		GridPane g = new  GridPane();
 		g.add(text,0,0,6,2);	
+		/// ÇáÒÑÇíÑ ãä æÇÍÏ á ÊÓÚÉ
 		for(int i =1; i<10 ;i++){
 			  arr[i]= new Button(Integer.toString(i));
 	    	  
